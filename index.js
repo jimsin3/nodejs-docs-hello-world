@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World! WOW is this Docker.This is the next test");
+    response.end("Hello World! WOW is this Docker. <b>WORKING</b>");
 
 });
 
